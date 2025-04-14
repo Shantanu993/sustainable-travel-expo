@@ -1,0 +1,66 @@
+sustainable-travel-app/
+├── app.json
+├── App.js
+├── babel.config.js
+├── package.json
+├── assets/
+│   ├── icon.png
+│   └── splash.png
+├── firebase/
+│   ├── config.js
+│   └── functions/
+│       ├── index.js
+│       ├── auth.js
+│       ├── trips.js
+│       ├── suggestions.js
+│       ├── footprint.js
+│       ├── social.js
+│       ├── leaderboard.js
+│       └── aiAssistant.js
+├── src/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Button.js
+│   │   │   ├── Card.js
+│   │   │   ├── Input.js
+│   │   │   └── Loading.js
+│   │   ├── FootprintCalendar.js
+│   │   ├── MapView.js
+│   │   ├── SuggestionItem.js
+│   │   ├── TripCard.js
+│   │   └── UserListItem.js
+│   ├── context/
+│   │   ├── AuthContext.js
+│   │   └── AppContext.js
+│   ├── hooks/
+│   │   ├── useFirestore.js
+│   │   └── useLocation.js
+│   ├── navigation/
+│   │   ├── AppNavigator.js
+│   │   ├── AuthNavigator.js
+│   │   └── RootNavigator.js
+│   ├── screens/
+│   │   ├── auth/
+│   │   │   ├── LoginScreen.js
+│   │   │   ├── RegisterScreen.js
+│   │   │   └── ForgotPasswordScreen.js
+│   │   ├── main/
+│   │   │   ├── DashboardScreen.js
+│   │   │   ├── ProfileScreen.js
+│   │   │   ├── TripsScreen.js
+│   │   │   ├── TripDetailScreen.js
+│   │   │   ├── CreateTripScreen.js
+│   │   │   ├── SuggestionsScreen.js
+│   │   │   ├── FootprintLogScreen.js
+│   │   │   ├── FootprintCalendarScreen.js
+│   │   │   ├── AiAssistantScreen.js
+│   │   │   ├── FriendsScreen.js
+│   │   │   └── LeaderboardScreen.js
+│   ├── theme/
+│   │   ├── colors.js
+│   │   ├── typography.js
+│   │   └── spacing.js
+│   └── utils/
+│       ├── dateUtils.js
+│       └── validationUtils.js
+└── firestore.rules
